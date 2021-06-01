@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+.name{
+  size: 3rem;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: rotate 5s infinite 1s linear;
+  }
+}
+.Card{
+  border-radius: 20rem;
+  background-image: url(./jj.jpg);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 30px 200px 100px rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  
+}
+.Q{
+color: violet;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.B{
+  background-color: royalblue;
+}
+.titleBar {
+  background-color: rgb(0, 0, 0);
+  display: block;
+  color: rgba(255, 0, 0, 0.877);
+  padding-left: 16px;
+  position: fixed;
+  
+  }
+
+.Card-btn{
+  background-color: #2f7a8fce;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-weight: bolder;
+  font: size 25px;
+}
+.btn{
+  padding-top: 400px;
+  position: absolute;
+}
+.App-logo{
+  padding-bottom: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  box-shadow: 1px 5px 20px 0 rgb(0, 0, 0);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: right;
+  padding-top: 30px;
+
+}
+
+.C{
+  padding-top: 120px;
+  padding-right: 40px;
+}
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+
+}
+
+.nav{
+  float: left;
+  position: relative;
+  max-width: 700px;
+  padding-left: 20px;
+  font-style: italic;
+  word-spacing: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+ }
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(0rem);
+  }
+}

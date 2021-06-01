@@ -1,0 +1,26 @@
+.K{
+    border-radius: 90%;
+    background-image: url(./ca.jpg);
+    background-position-y: 1%;
+    background-position-x: right(50%);
+    background-size: 100%;
+    background-attachment: relative;
+    background-position-x: right;
+    min-height: 80vh;
+    min-width: 60vw;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    box-shadow: 10px 30px 200px 100px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+    float: right;
+    
+  }
+  
+
+  .O{
+      padding-top: 500px;
+  }

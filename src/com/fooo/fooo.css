@@ -1,0 +1,36 @@
+.OO{
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 30px 200px 100px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+    animation: OO 1s ease-in-out infinite alternate;
+    
+}
+
+@keyframes OO {
+    from{
+        background-color: rgb(66, 40, 40);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.712);
+    }
+}
+
+.ft{
+    padding-top: 500px;
+
+}
+.KU{
+    width: 10%;
+    padding-bottom: 200px;
+    
+}
